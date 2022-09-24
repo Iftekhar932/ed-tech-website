@@ -18,7 +18,7 @@
         theme: {
           extend: {
             colors: {
-              clifford: "#123123",
+              customBlue: "#289bde",
             },
           },
         },
@@ -75,7 +75,7 @@
               <li>
                 <a
                   href="#"
-                  class="block py-2 pr-4 pl-3 text-white bg-[#289bde] rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white"
+                  class="block py-2 pr-4 pl-3 text-white bg-customBlue rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white"
                   aria-current="page"
                   >Home</a
                 >
@@ -144,7 +144,7 @@
           It is pretty unusual not getting distracted by the readable <br />
           content of a page while looking at it's layout
         </p>
-        <button class="px-8 py-2 bg-[#289bde] text-white rounded">
+        <button class="px-8 py-2 bg-customBlue text-white rounded">
           See more courses
         </button>
       </article>
@@ -270,7 +270,7 @@
               It is pretty unusual not getting distracted by the readable <br />
               content of a page while looking at it's layout
             </p>
-            <p class="text-blue-600 font-semibold">Price: 20$</p>
+            <p class="text-blue-600 font-semibold dark:text-customBlue ">Price: 20$</p>
           </article>
         </article>
 
@@ -287,7 +287,7 @@
               It is pretty unusual not getting distracted by the readable <br />
               content of a page while looking at it's layout
             </p>
-            <p class="text-blue-600 font-semibold">Price: 20$</p>
+            <p class="text-blue-600 font-semibold dark:text-customBlue">Price: 20$</p>
           </article>
         </article>
 
@@ -304,7 +304,7 @@
               It is pretty unusual not getting distracted by the readable <br />
               content of a page while looking at it's layout
             </p>
-            <p class="text-blue-600 font-semibold">Price: 20$</p>
+            <p class="text-blue-600 font-semibold dark:text-customBlue">Price: 20$</p>
           </article>
         </article>
 
@@ -321,7 +321,7 @@
               It is pretty unusual not getting distracted by the readable <br />
               content of a page while looking at it's layout
             </p>
-            <p class="text-blue-600 font-semibold">Price: 20$</p>
+            <p class="text-blue-600 font-semibold dark:text-customBlue">Price: 20$</p>
           </article>
         </article>
 
@@ -338,7 +338,7 @@
               It is pretty unusual not getting distracted by the readable <br />
               content of a page while looking at it's layout
             </p>
-            <p class="text-blue-600 font-semibold">Price: 20$</p>
+            <p class="text-blue-600 font-semibold dark:text-customBlue">Price: 20$</p>
           </article>
         </article>
 
@@ -355,12 +355,12 @@
               It is pretty unusual not getting distracted by the readable <br />
               content of a page while looking at it's layout
             </p>
-            <p class="text-blue-600 font-semibold">Price: 20$</p>
+            <p class="text-blue-600 font-semibold dark:text-customBlue">Price: 20$</p>
           </article>
         </article>
       </article>
       <!-- BUTTON -->
-      <button class="mx-auto px-8 py-2 bg-[#289bde] text-white rounded block">
+      <button class="mx-auto px-8 py-2 bg-customBlue text-white rounded block">
         See more courses
       </button>
     </section>
@@ -369,7 +369,7 @@
     <!-- "ABOUT THIS COURSE" SECTION START -->
     <section id="about" class="w-full my-12">
       <!--  -->
-      <article class="flex bg-blue-50 mx-auto max-w-4xl dark:bg-gray-600">
+      <article class="flex bg-blue-50 mx-auto max-w-4xl dark:bg-gray-600 dark:text-slate-300">
         <div class="h-full w-full">
           <img
             class="h-full dark:brightness-100"
@@ -381,7 +381,7 @@
           <h1 class="text-3xl font-semibold">
             Explore The E-learning Institute
           </h1>
-          <p class="text-xs opacity-75">
+          <p class="text-sm opacity-75">
             There are many variations of passages this course is available. But
             this majority have suffered alteration in some form, by injected
             humour, or randomised words which don't look even slightly
@@ -412,7 +412,7 @@
             </div>
           </div>
           <button
-            class="px-8 py-2 mt-4 bg-[#289bde] text-white rounded self-start"
+            class="px-8 py-2 mt-4 bg-customBlue text-white rounded self-start"
           >
             Read More
           </button>
@@ -424,11 +424,11 @@
     <!-- "READY TO JOIN" SECTION START -->
     <section id="ready-to-join" class="w-full my-16">
       <div
-        class="flex justify-between max-w-4xl bg-[#289bde] rounded mx-auto p-12"
+        class="flex justify-between max-w-4xl bg-customBlue rounded mx-auto p-12"
       >
         <article class="flex flex-col justify-between w-6/12 text-white">
           <h1 class="text-3xl font-semibold">Ready to join?</h1>
-          <p class="text-xs opacity-75">
+          <p class="text-sm opacity-75">
             Anything embarrassing hidden in the middle of text. All the text
             generated on the internet tend to be repeated. Predefined texts.
           </p>
@@ -443,14 +443,14 @@
     <!-- "READY TO JOIN" SECTION END -->
 
     <!-- STUDENTS SECTION START -->
-    <section id="students" class="my-4 w-full ">
+    <section id="students" class="my-16 w-full ">
       <article class="flex flex-col items-start max-w-7xl mx-auto mb-4">
         <h1 class="mb-2 text-3xl font-semibold capitalize dark:text-white">
           Meet our successful
           <br />
           students
         </h1>
-        <p class="text-xs opacity-75 dark:text-white">
+        <p class="text-sm opacity-75 dark:text-white">
           Anything embarrassing hidden in the middle of text. <br />
           All the text generated on the internet tend to be repeated. Predefined
           texts.
@@ -524,9 +524,35 @@
           </div>
         </article>
       </div>
+      <button class="mx-auto px-8 py-2 bg-customBlue text-white rounded block mt-8">
+        View All
+        </button>
     </section>
     <!-- STUDENTS SECTION END -->
 
+    <!-- FEEDBACK SECTION START -->
+    <section id="feedback" class="w-full">
+      <article class="flex flex-col items-center max-w-7xl mx-auto mb-4">
+        <h1 class="mb-2 text-3xl font-semibold capitalize dark:text-white">
+          Some Students Feedback
+        </h1>
+        <p class="text-sm opacity-75 text-center dark:text-white">
+          Anything embarrassing hidden in the middle of text. All the text generated on the  <br />
+          internet tend to be repeated. Predefined
+          texts.
+        </p>
+      </article>
+
+      <article class="flex items-center justify-between ">
+        <article>
+          <div>
+            <img src="./images/comma.png" alt=""><span><img class="w-1/4" src="./images/gold start.jpg" alt="rating"></span>
+          </div>
+        </article>
+        <article></article>
+      </article>
+    </section>
+    <!-- FEEDBACK SECTION END -->
     <!-- FLOWBITE SCRIPT -->
     <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
   </body>
