@@ -27,8 +27,9 @@
   </head>
 
   <body class="dark:bg-gray-900">
-    <!-- NAV START -->
+    <!-- HEADER SECTION -->
     <header>
+      <!-- NAV START -->
       <!-- 🍎 nav code below 🍎 -->
       <nav
         class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 dark:bg-gray-900"
@@ -963,8 +964,12 @@
 
     <!-- COMPANIES SECTION START -->
     <section id="companies" class="py-8">
-      <article class="flex flex-wrap place-content-center max-w-5xl mx-auto">
-        <h1 class="basis-full text-3xl">Trusted by over 800+ companies</h1>
+      <article
+        class="flex flex-wrap place-content-center justify-between max-w-5xl mx-auto dark:text-white"
+      >
+        <h1 class="basis-full font-bold text-4xl text-center mb-8">
+          Trusted by over 800+ companies
+        </h1>
         <img src="./images/company/company-1.png" alt="" />
         <img src="./images/company/company-2.png" alt="" />
         <img src="./images/company/company-3.png" alt="" />
@@ -972,8 +977,35 @@
         <img src="./images/company/company-5.png" alt="" />
       </article>
     </section>
-
     <!-- COMPANIES SECTION END -->
+
+    <!-- FOOTER  -->
+    <footer id="footer" class="my-8 p-20 bg-black dark:text-white">
+      <article class="flex flex-col place-content-center">
+        <h1 class="text-xl self-center font-bold">Pro Edu</h1>
+        <p class="text-center text-gray-400 font-semibold">
+          OFfice 41, Zawaya Building, Ghala Muscat, <br />
+          Sultanate of Oman <br />
+          Privacy Policy | Terms of use
+        </p>
+        <div
+          class="flex place-content-center justify-evenly self-center max-w-xs p-4"
+        >
+          <span class="rounded-full bg-zinc-800fill='white' p-2 w-8 h-8"
+            ><img src="./images/facebook-svgrepo-com.svg" alt="facebook icons"
+          /></span>
+          <span class="rounded-full bg-zinc-800 p-2 w-8 h-8"
+            ><img src="./images/linkedin-svgrepo-com.svg" alt="linkedin icons"
+          /></span>
+          <span class="rounded-full bg-zinc-800 p-2 w-8 h-8"
+            ><img src="./images/twitter-svgrepo-com.svg" alt="twitter icons"
+          /></span>
+          <span class="rounded-full bg-zinc-800 p-2 w-8 h-8"
+            ><img src="./images/github-svgrepo-com.svg" alt="github icons"
+          /></span>
+        </div>
+      </article>
+    </footer>
 
     <!-- FLOWBITE SCRIPT -->
     <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
