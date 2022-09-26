@@ -26,13 +26,13 @@
     </script>
   </head>
 
-  <body class="dark:bg-gray-900">
+  <body class="dark:bg-gray-800">
     <!-- HEADER SECTION -->
     <header>
       <!-- NAV START -->
       <!-- 🍎 nav code below 🍎 -->
       <nav
-        class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 dark:bg-gray-900"
+        class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 dark:bg-gray-800"
       >
         <div
           class="container flex flex-wrap justify-between items-center mx-auto"
@@ -117,10 +117,17 @@
                   >Register</a
                 >
               </li>
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  >Register</a
+                >
+              </li>
             </ul>
           </div>
           <button
-            class="px-8 py-2 outline outline-1 text-blue-400 border-blue-100 rounded-sm self-center"
+            class="px-8 py-2 outline outline-1 text-blue-400 border-blue-100 rounded-sm self-center hidden md:block"
           >
             Read More
           </button>
@@ -137,16 +144,18 @@
     >
       <!-- CAROUSEL CENTER TEXTS -->
       <article
-        class="absolute inset-1/4 z-50 flex flex-col items-center justify-evenly w-full max-w-2xl"
+        class="absolute inset-y-1/2 inset-x-auto z-50 flex flex-col items-center justify-around gap-2 w-full max-w-2xl"
       >
-        <h1 class="text-4xl text-center text-white">
+        <h1 class="text-4xl text-center text-white dark:text-xl">
           Get started with digital learning
         </h1>
         <p class="text-xs font-light text-center text-white">
           It is pretty unusual not getting distracted by the readable <br />
           content of a page while looking at it's layout
         </p>
-        <button class="px-8 py-2 bg-customBlue text-white rounded">
+        <button
+          class="bg-customBlue text-sm text-white rounded p-2 md:px-8 md:py-2"
+        >
           Get Started
         </button>
       </article>
@@ -190,7 +199,7 @@
       <!-- Slider controls -->
       <button
         type="button"
-        class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+        class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none hidden md:block"
         data-carousel-prev=""
       >
         <span
@@ -216,7 +225,7 @@
       </button>
       <button
         type="button"
-        class="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+        class="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none hidden md:block"
         data-carousel-next=""
       >
         <span
@@ -246,7 +255,7 @@
     <!-- COURSES SECTION START-->
     <section id="courses" class="my-8">
       <article
-        class="text-center flex flex-col items-center justify-center mb-12"
+        class="text-center flex flex-col items-center justify-center mb-12 w-2xl"
       >
         <h1 class="text-4xl font-semibold dark:text-white">
           Discover our popular <br />courses
@@ -769,7 +778,7 @@
 
     <!-- FAQ SECTION START -->
 
-    <section id="faq" class="my-8">
+    <section id="faq" class="mt-8">
       <article class="flex flex-col items-center max-w-7xl mx-auto my-12">
         <h1 class="mb-2 text-3xl font-semibold capitalize dark:text-white">
           Frequently asked questions
@@ -826,14 +835,8 @@
               navbars, and more.
             </p>
             <p class="text-gray-500 dark:text-gray-400">
-              Check out this guide to learn how to
-              <a
-                href="/docs/getting-started/introduction/"
-                class="text-blue-600 dark:text-blue-500 hover:underline"
-                >get started</a
-              >
-              and start developing websites even faster with components on top
-              of Tailwind CSS.
+              Check out this guide to learn how to and start developing websites
+              even faster with components on top of Tailwind CSS.
             </p>
           </div>
         </div>
@@ -963,35 +966,35 @@
     <!-- FAQ SECTION END -->
 
     <!-- COMPANIES SECTION START -->
-    <section id="companies" class="py-8">
+    <section id="companies" class="py-32 dark:bg-gray-600">
       <article
-        class="flex flex-wrap place-content-center justify-between max-w-5xl mx-auto dark:text-white"
+        class="flex flex-wrap place-content-center justify-between max-w-5xl mx-auto gap-10 dark:text-white"
       >
         <h1 class="basis-full font-bold text-4xl text-center mb-8">
           Trusted by over 800+ companies
         </h1>
-        <img src="./images/company/company-1.png" alt="" />
-        <img src="./images/company/company-2.png" alt="" />
-        <img src="./images/company/company-3.png" alt="" />
-        <img src="./images/company/company-4.png" alt="" />
-        <img src="./images/company/company-5.png" alt="" />
+        <img src="./images/company/company-1.png" alt="company image" />
+        <img src="./images/company/company-2.png" alt="company image" />
+        <img src="./images/company/company-3.png" alt="company image" />
+        <img src="./images/company/company-4.png" alt="company image" />
+        <img src="./images/company/company-5.png" alt="company image" />
       </article>
     </section>
     <!-- COMPANIES SECTION END -->
 
     <!-- FOOTER  -->
-    <footer id="footer" class="my-8 p-20 bg-black dark:text-white">
+    <footer id="footer" class="p-20 bg-black dark:text-white">
       <article class="flex flex-col place-content-center">
-        <h1 class="text-xl self-center font-bold">Pro Edu</h1>
+        <h1 class="text-3xl self-center font-bold">Pro Edu</h1>
         <p class="text-center text-gray-400 font-semibold">
           OFfice 41, Zawaya Building, Ghala Muscat, <br />
           Sultanate of Oman <br />
           Privacy Policy | Terms of use
         </p>
         <div
-          class="flex place-content-center justify-evenly self-center max-w-xs p-4"
+          class="flex place-content-center justify-evenly self-center gap-2 max-w-xs p-4"
         >
-          <span class="rounded-full bg-zinc-800fill='white' p-2 w-8 h-8"
+          <span class="rounded-full bg-zinc-800 p-2 w-8 h-8"
             ><img src="./images/facebook-svgrepo-com.svg" alt="facebook icons"
           /></span>
           <span class="rounded-full bg-zinc-800 p-2 w-8 h-8"
