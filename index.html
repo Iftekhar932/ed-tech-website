@@ -268,7 +268,7 @@
 
       <!-- CODE TO DISPLAY COURSES -->
       <article
-        class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-screen-xl mx-auto mb-12"
+        class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-screen-xl w-96 mx-auto mb-12 md:w-full"
       >
         <!-- SINGLE COURSE BOX -->
         <article
@@ -430,7 +430,7 @@
     <!-- "ABOUT THIS COURSE" SECTION START -->
     <section id="about" class="w-full my-12">
       <article
-        class="flex bg-blue-50 mx-auto max-w-4xl dark:bg-gray-600 dark:text-slate-300"
+        class="flex flex-col pb-4 bg-blue-50 mx-auto max-w-4xl md:pb-0 md:flex-row dark:bg-gray-600 dark:text-slate-300"
       >
         <div class="h-full w-full">
           <img
@@ -446,13 +446,13 @@
           <p class="text-sm opacity-75">
             There are many variations of passages this course is available. But
             this majority have suffered alteration in some form, by injected
-            humour, or randomised words which don't look even slightly
+            humour, or randomized words which don't look even slightly
             believable. If you are going to use a passage of course, you need to
             be sure where it goes. <br /><br /><br />
             Anything embarrassing hidden in the middle of text. All the text
             generated on the internet tend to be repeated. Predefined texts.
           </p>
-          <div class="flex">
+          <div class="flex flex-wrap">
             <div class="mr-8">
               <span class="font-bold text-2xl">3.2K+</span>
               <span class="flex text-xs text-gray-400 font-medium"
@@ -486,9 +486,11 @@
     <!-- "READY TO JOIN" SECTION START -->
     <section id="ready-to-join" class="w-full my-16">
       <div
-        class="flex justify-between max-w-4xl bg-customBlue rounded mx-auto p-12"
+        class="flex flex-col justify-between place-items-center max-w-4xl bg-customBlue rounded mx-auto p-12 md:flex-row"
       >
-        <article class="flex flex-col justify-between w-6/12 text-white">
+        <article
+          class="flex flex-col justify-between place-content-center text-white text-center md:w-6/12"
+        >
           <h1 class="text-3xl font-semibold">Ready to join?</h1>
           <p class="text-sm opacity-75">
             Anything embarrassing hidden in the middle of text. All the text
@@ -496,7 +498,7 @@
           </p>
         </article>
         <button
-          class="p-4 py-2 mt-4 bg-white text-blue-600 font-bold rounded self-start"
+          class="mx-auto p-4 py-2 mt-4 bg-white text-blue-600 font-bold rounded self-start"
         >
           Register Now
         </button>
@@ -506,7 +508,9 @@
 
     <!-- STUDENTS SECTION START -->
     <section id="students" class="my-16 w-full">
-      <article class="flex flex-col items-start max-w-7xl mx-auto mb-4">
+      <article
+        class="flex flex-col items-center max-w-7xl mx-auto mb-4 md:items-start text-center md:items-start md:text-justify"
+      >
         <h1 class="mb-2 text-3xl font-semibold capitalize dark:text-white">
           Meet our successful
           <br />
@@ -520,15 +524,17 @@
       </article>
 
       <!-- STUDENTS BOX START -->
-      <div class="flex items-center justify-between max-w-7xl mx-auto">
+      <div
+        class="flex flex-col items-center justify-between max-w-7xl mx-auto md:flex-row gap-4"
+      >
         <!-- SINGLE BOX -->
         <article
-          class="flex flex-col items-start shadow-sm border max-w-xs dark:text-white border-blue-800"
+          class="flex flex-col items-start shadow-sm border max-w-xs dark:text-white border-cyan-100"
         >
           <img
             src="./images/student/student-1.jpg"
             alt="student image"
-            class="h-96"
+            class="max-h-96 h-96 w-96"
           />
           <div class="p-4">
             <h3>Kawser Uddin</h3>
@@ -536,15 +542,14 @@
           </div>
         </article>
         <!-- SINGLE BOX -->
-        <!-- ----------------------------------- -->
         <article
-          class="flex flex-col items-start shadow-sm border max-w-xs dark:text-white border-blue-800"
+          class="flex flex-col items-start shadow-sm border max-w-xs dark:text-white border-cyan-100"
         >
           <div>
             <img
               src="./images/student/student-2.jpg"
               alt="student image"
-              class="max-h-96"
+              class="max-h-96 h-96 w-96"
             />
           </div>
           <div class="p-4">
@@ -552,16 +557,15 @@
             <p class="opacity-50 text-bold">Graphics Designer</p>
           </div>
         </article>
-        <!-- ----------------------------------- -->
         <!-- SINGLE BOX -->
         <article
-          class="flex flex-col items-start shadow-sm border max-w-xs dark:text-white border-blue-800"
+          class="flex flex-col items-start shadow-sm border max-w-xs dark:text-white border-cyan-100"
         >
           <div class="">
             <img
               src="./images/student/student-3.jpg"
               alt="student image"
-              class="max-h-96"
+              class="max-h-96 h-96 w-96"
             />
           </div>
           <div class="p-4">
@@ -571,13 +575,13 @@
         </article>
         <!-- SINGLE BOX -->
         <article
-          class="flex flex-col items-start shadow-sm border max-w-xs dark:text-white border-blue-800"
+          class="flex flex-col items-start shadow-sm border max-w-xs dark:text-white border-cyan-100"
         >
           <div class="">
             <img
               src="./images/student/student-4.jpg"
               alt="student image"
-              class="max-h-96"
+              class="max-h-96 h-96 w-96"
             />
           </div>
           <div class="p-4">
@@ -595,8 +599,10 @@
     <!-- STUDENTS SECTION END -->
 
     <!-- FEEDBACK SECTION START -->
-    <section id="feedback" class="w-full">
-      <article class="flex flex-col items-center max-w-7xl mx-auto mb-8">
+    <section id="feedback" class="w-full my-60 mt-32">
+      <article
+        class="flex flex-col place-items-center items-center max-w-7xl mx-auto md:mb-8"
+      >
         <h1 class="mb-2 text-3xl font-semibold capitalize dark:text-white">
           Some Students Feedback
         </h1>
@@ -608,7 +614,7 @@
       </article>
 
       <article
-        class="flex gap-x-4 place-content-center max-w-screen-xl mx-auto"
+        class="flex flex-col mt-64 gap-y-4 place-content-center mx-auto h-64 w-64 md:max-w-screen-xl md:flex-row md:gap-x-4 md:h-auto md:w-auto"
       >
         <!-- SINGLE FEEDBACK BOX -->
         <article class="flex flex-col border max-w-xl p-6">
@@ -677,7 +683,7 @@
                 viewBox="0 0 24 24"
                 stroke-width="1.5"
                 stroke="currentColor"
-                class="w-6 h-6 fill-yellow-200 stroke-cyan-600"
+                class="w-6 h-6 fill-yellow-200 stroke-cyan-100"
               >
                 <path
                   stroke-linecap="round"
@@ -777,7 +783,7 @@
                 viewBox="0 0 24 24"
                 stroke-width="1.5"
                 stroke="currentColor"
-                class="w-6 h-6 fill-yellow-200 stroke-cyan-600"
+                class="w-6 h-6 fill-yellow-200 stroke-cyan-100"
               >
                 <path
                   stroke-linecap="round"
@@ -815,7 +821,7 @@
 
     <!-- FAQ SECTION START -->
 
-    <section id="faq" class="mt-8">
+    <section id="faq" class="mt-96 md:mt-8">
       <article class="flex flex-col items-center max-w-7xl mx-auto my-12">
         <h1 class="mb-2 text-3xl font-semibold capitalize dark:text-white">
           Frequently asked questions
@@ -1003,7 +1009,7 @@
     <!-- FAQ SECTION END -->
 
     <!-- COMPANIES SECTION START -->
-    <section id="companies" class="py-32 dark:bg-gray-600">
+    <section id="companies" class="py-32 hidden md:block dark:bg-gray-600">
       <article
         class="flex flex-wrap place-content-center justify-between max-w-5xl mx-auto gap-10 dark:text-white"
       >
@@ -1020,7 +1026,7 @@
     <!-- COMPANIES SECTION END -->
 
     <!-- FOOTER  -->
-    <footer id="footer" class="p-20 bg-black dark:text-white">
+    <footer id="footer" class="p-12 mt-12 bg-black dark:text-white">
       <article class="flex flex-col place-content-center">
         <h1 class="text-3xl self-center font-bold">Pro Edu</h1>
         <p class="text-center text-gray-400 font-semibold">
